@@ -5,16 +5,16 @@
 ## Install
 
 ```
-$ npm i awesome-weather-now-cli
+$ npm i -g awesome-weather-now-cli
 ```
 
 ## Usage
 
 ```
-$ node weather -h / -c [CITY] / -t [API_KEY]
+$ weather -h / -c [CITY] / -t [API_KEY]
 ```
 
-> -c [CITY] sets city (words in a city name should be separated by _)  
+> -c [CITY] sets city (words in a city name should be separated by \_)  
 > -h calls help  
 > -t [API_KEY] sets token  
 > No params - shows weather (if you set a city and a token before)
