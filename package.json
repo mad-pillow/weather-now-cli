@@ -1,5 +1,5 @@
 {
-  "name": "weather-now-cli",
+  "name": "awesome-weather-now-cli",
   "version": "1.0.0",
   "description": "CLI for getting current weather",
   "main": "weather.js",
