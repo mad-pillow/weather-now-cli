@@ -1,13 +1,14 @@
 {
   "name": "weather-cli",
   "version": "1.0.0",
-  "description": "CLI for getting weather",
+  "description": "CLI for getting current weather",
   "main": "weather.js",
   "bin": {
     "weather": "weather.js"
   },
   "type": "module",
   "scripts": {
+    "start": "node weather.js -h",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +17,14 @@
   ],
   "author": "Dmytro Sychov",
   "license": "ISC",
+  "homepage": "https://github.com/mad-pillow/weather-now-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mad-pillow/weather-now-cli"
+  },
+  "bugs": {
+    "email": "dmtr.schv@gmail.com"
+  },
   "dependencies": {
     "axios": "^0.25.0",
     "chalk": "^5.0.0",
