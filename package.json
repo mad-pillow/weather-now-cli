@@ -1,6 +1,6 @@
 {
   "name": "awesome-weather-now-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CLI for getting current weather",
   "main": "weather.js",
   "bin": {
